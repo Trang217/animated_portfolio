@@ -7,19 +7,35 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependency directories
+node_modules/
+.next/
+out/
+dist/
+dist-ssr/
 
-# Editor directories and files
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Local runtime files
+*.pid
+*.pid.lock
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor settings
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
-.env
+*.sw*
+
+# Optional: ignore typescript build info
+*.tsbuildinfo
