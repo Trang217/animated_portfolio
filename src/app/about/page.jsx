@@ -16,6 +16,8 @@ const lists = [
   "NodeJs",
   "MongoDB",
   "Framer Motion",
+  "Github",
+  "Rest API",
 ];
 function AboutPage() {
   return (
@@ -26,7 +28,7 @@ function AboutPage() {
       transition={{ duration: 1 }}
     >
       {/* Container  */}
-      <div>
+      <div className="h-full overflow-scroll">
         {/* Text container */}
         <div className="flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64  p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48">
           {/* Biography container  */}
@@ -81,7 +83,58 @@ function AboutPage() {
           </div>
 
           {/* Experience container  */}
-          <div className="">experience</div>
+          <div className="flex flex-col gap-12 justify-center mb-48">
+            {/*Experience Title  */}
+            <h1 className="uppercase font-bold text-2xl">Experience</h1>
+            {/*Experience List  */}
+            <div className="">
+              {/*Experience List Item  */}
+              <div className="flex justify-between ">
+                {/* Left */}
+                <div className="w-1/3">
+                  {/* Job title */}
+                  <div className="bg-rose-100 p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">
+                    Web Developer
+                  </div>
+                  {/* Job description */}
+                  <div className="p-3 text-sm italic">
+                    I developed the Production Assist web application by
+                    converting designer mockups into fully responsive pages
+                    using React, Semantic UI, and SCSS. I implemented key
+                    features such as dark mode for the Electron desktop app and
+                    worked to improve UI consistency and user experience across
+                    releases. I actively responded to user feedback, fixed bugs
+                    efficiently, and contributed to monthly updates.
+                    Additionally, I contributed to the GDTF Fixture Builder
+                    website, helping build UI components and implement new
+                    features for an industry-standard lighting initiative. I
+                    also worked with MongoDB to manage user data, including
+                    profiles, authentication structures, and user-specific
+                    settings in collaboration with backend endpoints.
+                  </div>
+                  {/* Job date */}
+                  <div className="p-3 text-sm font-semibold text-rose-500">
+                    1/2022-7/2025
+                  </div>
+                  {/* Job company */}
+                  <div className="p-3 rounded bg-rose-200 text-sm font-semibold w-fit">
+                    Deersoft GmbH
+                  </div>
+                </div>
+                {/* Center */}
+                <div className="w-1/6">
+                  {/* Line  */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* Circle */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-rose-400 bg-amber-50 -left-2"></div>
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-rose-400 bg-amber-50 bottom-0 -left-2"></div>
+                  </div>
+                </div>
+                {/* Right */}
+                <div className="w-1/3"></div>
+              </div>
+            </div>
+          </div>
         </div>
         {/* SVG container */}
       </div>
