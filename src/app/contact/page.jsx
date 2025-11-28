@@ -46,14 +46,14 @@ function ContactPage() {
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 font-bold">
         {/* Text container  */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-4xl text-slate-800">
+        <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-4xl text-amber-700">
           <div className="pointer-events-none">
             <Image
               src="/hero.png"
               alt
               width={96}
               height={96}
-              className="mx-auto mb-10"
+              className="mx-auto mb-2"
             />
             {text.split("").map((letter, index) => (
               <motion.span
@@ -76,7 +76,7 @@ function ContactPage() {
         <form
           onSubmit={sendEmail}
           ref={formRef}
-          className="h-1/2 lg:h-[80%] lg:my-auto lg:w-1/2 bg-rose-100 shadow-lg rounded-xl text-xl text-slate-600 flex flex-col justify-center gap-8 p-24"
+          className="h-1/2 lg:h-[80%] lg:my-auto lg:w-1/2 bg-orange-100 shadow-lg rounded-xl text-xl text-amber-700 flex flex-col justify-center gap-8 p-24"
         >
           <span>Hi Jenny,</span>
           <textarea
@@ -91,7 +91,7 @@ function ContactPage() {
             className="bg-transparent border-b-2 border-b-black outline-none"
           />
           <span>Best Regards</span>
-          <button className="bg-slate-500 rounded-sm font-semibold text-amber-50 py-4 hover:scale-105 hover:transition-all hover:duration-150 hover:font-bold">
+          <button className="bg-slate-500 rounded-md mt-4 font-semibold text-amber-50 py-4 hover:scale-105 hover:transition-all hover:duration-150 hover:font-bold">
             Send
           </button>
           {success && (

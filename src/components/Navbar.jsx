@@ -72,7 +72,7 @@ function Navbar() {
         <Link
           target="_blank"
           rel="noopener noreferrer"
-          href="www.linkedin.com/in/trang-nguyen-0383981b7"
+          href="https://www.linkedin.com/in/trang-nguyen-0383981b7"
         >
           <Image
             src="/linkedin.png"

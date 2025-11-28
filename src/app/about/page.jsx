@@ -32,11 +32,13 @@ function AboutPage() {
         {/* Text container */}
         <div className="flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64  p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48">
           {/* Biography container  */}
-          <div className="flex flex-col gap-12 justify-center">
+          <div className="flex flex-col gap-4 justify-center">
             {/*Biography Title  */}
-            <h1 className="uppercase font-bold text-2xl">Biography</h1>
+            <h1 className="uppercase font-bold text-2xl text-slate-700">
+              Biography
+            </h1>
             {/* Biography description  */}
-            <p className="text-lg">
+            <p className="text-lg text-slate-700 font-semibold text-justify tracking-wide">
               Over the past four years in web development, I’ve grown not just
               as a developer, but as a person. Every project, challenge, and new
               technology has added something meaningful to my journey. It’s
@@ -48,7 +50,7 @@ function AboutPage() {
               evolution that this path brings to my life.
             </p>
             {/* Quote */}
-            <span className="italic">
+            <span className="italic text-lg text-slate-700">
               Growing with every challenge, learning with every moment, thankful
               always.
             </span>
@@ -74,7 +76,9 @@ function AboutPage() {
           {/* Skills container  */}
           <div className="flex flex-col gap-12 justify-center">
             {/*Skill Title  */}
-            <h1 className="uppercase font-bold text-2xl">Skills</h1>
+            <h1 className="uppercase font-bold text-2xl text-slate-700">
+              Skills
+            </h1>
             {/*Skill List  */}
             <div className="flex gap-4 flex-wrap">
               {lists.map((item) => (
@@ -100,11 +104,11 @@ function AboutPage() {
                 {/* Left */}
                 <div className="w-1/3">
                   {/* Job title */}
-                  <div className="bg-rose-100 p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">
+                  <div className="bg-rose-100 text-slate-700 p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">
                     Web Developer
                   </div>
                   {/* Job description */}
-                  <div className="p-3 text-sm italic">
+                  <div className="p-3 text-sm italic text-slate-700">
                     I developed the Production Assist web application by
                     converting designer mockups into fully responsive pages
                     using React, Semantic UI, and SCSS. I implemented key
@@ -124,7 +128,7 @@ function AboutPage() {
                     1/2022-7/2025
                   </div>
                   {/* Job company */}
-                  <div className="p-3 rounded bg-rose-200 text-sm font-semibold w-fit">
+                  <div className="p-3 rounded bg-rose-200 text-slate-700 text-sm font-semibold w-fit">
                     Deersoft GmbH
                   </div>
                 </div>
