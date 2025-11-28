@@ -10,7 +10,7 @@ const Homepage = () => {
       animate={{ y: 0 }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col px-4 lg:flex-row">
+      <div className="h-full flex flex-col px-8 lg:flex-row">
         {/* Image container */}
         <div className="h-1/2 relative lg:h-full lg:w-1/2">
           <Image src="/hero.png" alt="" fill className="object-contain" />
@@ -22,7 +22,7 @@ const Homepage = () => {
             Guided by curiosity and quiet strength, I create through code.
           </h1>
           {/* Description  */}
-          <p className="text-xl tracking-wide text-left text-amber-800">
+          <p className="text-xl tracking-wide text-justify text-amber-800">
             Thank you for stepping into this space, where each project is woven
             with curiosity and a steady, unobtrusive strength. This portfolio
             shows the work I’ve done so far, and I hope it gives you a clear

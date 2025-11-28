@@ -35,7 +35,7 @@ function AboutPage() {
           {/* Biography container  */}
           <div className="flex flex-col gap-4 justify-center">
             {/*Biography Title  */}
-            <h1 className="uppercase font-bold text-2xl text-slate-700">
+            <h1 className="uppercase font-bold text-2xl text-amber-900">
               Biography
             </h1>
             {/* Biography description  */}

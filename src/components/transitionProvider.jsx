@@ -13,7 +13,7 @@ function TransitionProvider({ children }) {
         className="w-screen h-screen bg-gradient-to-b from-blue-50 to-rose-100"
       >
         <motion.div
-          className="w-screen h-screen fixed bg-slate-800 rounded-b-sm z-40"
+          className="w-screen h-screen fixed bg-amber-950 rounded-b-sm z-40"
           animate={{ height: "0vh" }}
           exit={{ height: "140vh" }}
           transition={{ duration: 0.5, ease: "easeOut" }}
@@ -26,11 +26,13 @@ function TransitionProvider({ children }) {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          {pathName.substring(1)}
+          {pathName.substring(1)
+            ? pathName.substring(1) + " Page"
+            : "Home Page"}
         </motion.div>
 
         <motion.div
-          className="w-screen h-screen fixed bg-slate-800 rounded-t-sm bottom-0 z-30"
+          className="w-screen h-screen fixed bg-amber-950 rounded-t-sm bottom-0 z-30"
           initial={{ height: "140vh" }}
           animate={{ height: "0vh", transition: { delay: 0.5 } }}
         />
