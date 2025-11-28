@@ -2,8 +2,8 @@ import Img_chatwithmai_1 from "../../public/chatwithmai_1.png";
 import Img_chatwithmai_2 from "../../public/chatwithmai_2.png";
 import Img_weather_1 from "../../public/weather_1.png";
 import Img_weather_2 from "../../public/weather_2.png";
-import Img_guessnum_1 from "../../public/guessnum_1.png";
-import Img_guessnum_2 from "../../public/guessnum_2.png";
+import Img_guessnum_1 from "../../public/guessnum_2.png";
+import Img_guessnum_2 from "../../public/guessnum_1.png";
 
 export const projects_data = [
   {

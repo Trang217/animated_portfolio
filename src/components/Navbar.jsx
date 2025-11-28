@@ -62,17 +62,48 @@ function Navbar() {
       </div>
       {/* Socials  */}
       <div className="hidden md:flex gap-4 w-1/3 justify-end">
-        <Link href="#">
-          <Image src="/github.png" alt="" width={24} height={24} />
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/Trang217"
+        >
+          <Image src="/github.png" alt="github image" width={24} height={24} />
         </Link>
-        <Link href="#">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
-        </Link>{" "}
-        <Link href="#">
-          <Image src="/facebook.png" alt="" width={24} height={24} />
-        </Link>{" "}
-        <Link href="#">
-          <Image src="/instagram.png" alt="" width={24} height={24} />
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="www.linkedin.com/in/trang-nguyen-0383981b7"
+        >
+          <Image
+            src="/linkedin.png"
+            alt="linkedin image"
+            width={24}
+            height={24}
+          />
+        </Link>
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.facebook.com/minhtrang.nguyen.98?locale=de_DE"
+        >
+          <Image
+            src="/facebook.png"
+            alt="facebook image"
+            width={24}
+            height={24}
+          />
+        </Link>
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/tranguu92/"
+        >
+          <Image
+            src="/instagram.png"
+            alt="instagram image"
+            width={24}
+            height={24}
+          />
         </Link>
       </div>
 
