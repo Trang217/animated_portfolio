@@ -5,7 +5,7 @@ import Img_weather_2 from "../../public/weather_2.png";
 import Img_guessnum_1 from "../../public/guessnum_1.png";
 import Img_guessnum_2 from "../../public/guessnum_2.png";
 
-export const projects = [
+export const projects_data = [
   {
     id: 1,
     category: "typescript, react",

@@ -52,6 +52,13 @@ function AboutPage() {
               Growing with every challenge, learning with every moment, thankful
               always.
             </span>
+            <a
+              download
+              href="/public/CV__TrangNguyen.pdf"
+              className="cappitalize"
+            >
+              Download my cv
+            </a>
             {/* Signature */}
             <div className="self-end mr-6">
               <Image
