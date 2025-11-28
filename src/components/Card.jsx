@@ -5,7 +5,7 @@ import React from "react";
 function Card({ project }) {
   const { id, category, title, image_1, desc, github, demo } = project;
   return (
-    <div className=" w-[400px] rounded-2xl p-6 bg-orange-100 shadow-lg">
+    <div className=" w-[400px] ring-2 ring-amber-600 rounded-2xl p-6 bg-orange-100 shadow-lg">
       {/* Image  */}
       <div className="aspect-video relative mb-4 ">
         <Image fill src={image_1} className="object-cover rounded-xl" />

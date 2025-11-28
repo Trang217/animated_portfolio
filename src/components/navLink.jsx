@@ -7,7 +7,8 @@ function NavLink({ link }) {
   return (
     <Link
       className={`p-1 rounded ${
-        pathName === link.url && "bg-slate-700 text-amber-50"
+        pathName === link.url &&
+        "rounded-lg ring-2 ring-amber-800 text-amber-800 py-1 px-4"
       }`}
       href={link.url}
     >

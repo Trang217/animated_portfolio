@@ -43,7 +43,7 @@ function Navbar() {
   return (
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
       {/* Links */}
-      <div className="hidden md:flex gap-4 w-1/3">
+      <div className="hidden md:flex gap-4 w-1/3 text-amber-800 font-semibold">
         {links.map((link) => (
           <NavLink key={link.title} link={link} />
         ))}
@@ -52,11 +52,11 @@ function Navbar() {
       <div className="md:hidden lg:flex xl:w-1/3 lg:justify-center">
         <Link
           href="/"
-          className="text-sm bg-slate-600 rounded-md p-1 font-semibold flex items-center justify-center"
+          className="text-sm bg-amber-800 rounded-md p-1 font-semibold flex items-center justify-center"
         >
-          <span className="text-white mr-1">Jenny</span>
-          <span className="w-12 h-8 rounded bg-amber-50 text-slate-900 flex items-center justify-center">
-            .Dev
+          <span className="text-amber-50 mr-1">Jenny</span>
+          <span className="w-16 h-8 rounded bg-amber-50 text-amber-800 flex items-center justify-center">
+            Nguyen
           </span>
         </Link>
       </div>
@@ -117,18 +117,18 @@ function Navbar() {
           <motion.div
             variants={topVariants}
             animate={open ? "open" : "close"}
-            className="w-10 h-1 bg-slate-600 rounded origin-left"
+            className="w-10 h-1 bg-amber-800 rounded origin-left"
           ></motion.div>
           <motion.div
             variants={centerVariants}
             animate={open ? "open" : "close"}
-            className="w-10 h-1 bg-slate-600 rounded"
+            className="w-10 h-1 bg-amber-800 rounded"
           ></motion.div>
           <motion.div
             variants={bottomVariants}
             origin-left
             animate={open ? "open" : "close"}
-            className="w-10 h-1 bg-slate-600 rounded origin-left"
+            className="w-10 h-1 bg-amber-800 rounded origin-left"
           ></motion.div>
         </button>
         {/* Menu list  */}
@@ -137,7 +137,7 @@ function Navbar() {
             initial="close"
             animate="open"
             variants={listVariants}
-            className="absolute z-40 flex flex-col items-center justify-center gap-8 text-4xl top-0 left-0 w-screen h-screen bg-slate-900 text-amber-50"
+            className="absolute z-40 flex flex-col items-center justify-center gap-8 text-4xl top-0 left-0 w-screen h-screen bg-amber-800 text-amber-50"
           >
             {links.map((link) => (
               <motion.div variants={listItemVariants} key={link.title}>

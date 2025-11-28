@@ -76,7 +76,7 @@ function ContactPage() {
         <form
           onSubmit={sendEmail}
           ref={formRef}
-          className="h-1/2 lg:h-[80%] lg:my-auto lg:w-1/2 bg-orange-100 shadow-lg rounded-xl text-xl text-amber-700 flex flex-col justify-center gap-8 p-24"
+          className="h-1/2 lg:h-[80%] ring-2 ring-amber-700 lg:my-auto lg:w-1/2 bg-orange-100 shadow-lg rounded-xl text-xl text-amber-700 flex flex-col justify-center gap-8 p-24"
         >
           <span>Hi Jenny,</span>
           <textarea
