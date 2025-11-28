@@ -18,6 +18,7 @@ const lists = [
   "Framer Motion",
   "Github",
   "Rest API",
+  "Three Js",
 ];
 function AboutPage() {
   return (
@@ -62,12 +63,12 @@ function AboutPage() {
               Download my cv
             </a>
             {/* Signature */}
-            <div className="self-end mr-6">
+            <div className="self-end mr-36">
               <Image
-                src="/mysign.svg"
+                src="/mysign.png"
                 alt="my signature"
-                width={150}
-                height={96}
+                width={300}
+                height={150}
               />
             </div>
             {/* Scroll SVG  */}
@@ -80,7 +81,7 @@ function AboutPage() {
               Skills
             </h1>
             {/*Skill List  */}
-            <div className="flex gap-4 flex-wrap">
+            <div className="flex gap-4 flex-wrap max-w-md">
               {lists.map((item) => (
                 <div
                   key={item}
