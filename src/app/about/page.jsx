@@ -35,11 +35,11 @@ function AboutPage() {
           {/* Biography container  */}
           <div className="flex flex-col gap-4 justify-center">
             {/*Biography Title  */}
-            <h1 className="uppercase font-bold text-2xl text-amber-900">
+            <h1 className="uppercase font-bold text-2xl text-amber-800">
               Biography
             </h1>
             {/* Biography description  */}
-            <p className="text-lg text-slate-700 font-semibold text-justify tracking-wide">
+            <p className="text-lg text-amber-800 font-semibold text-justify tracking-wide">
               Over the past four years in web development, I’ve grown not just
               as a developer, but as a person. Every project, challenge, and new
               technology has added something meaningful to my journey. It’s
@@ -51,14 +51,14 @@ function AboutPage() {
               evolution that this path brings to my life.
             </p>
             {/* Quote */}
-            <span className="italic text-lg text-slate-700">
+            <span className="italic text-lg text-amber-800">
               Growing with every challenge, learning with every moment, thankful
               always.
             </span>
             <a
               download
               href="/public/CV__TrangNguyen.pdf"
-              className="cappitalize"
+              className="cappitalize text-amber-800"
             >
               Download my cv
             </a>
@@ -77,7 +77,7 @@ function AboutPage() {
           {/* Skills container  */}
           <div className="flex flex-col gap-12 justify-center">
             {/*Skill Title  */}
-            <h1 className="uppercase font-bold text-2xl text-slate-700">
+            <h1 className="uppercase font-bold text-2xl text-amber-800">
               Skills
             </h1>
             {/*Skill List  */}
@@ -85,7 +85,7 @@ function AboutPage() {
               {lists.map((item) => (
                 <div
                   key={item}
-                  className="rounded p-2 text-sm cursor-pointer bg-slate-900 text-amber-50 hover:bg-amber-100 hover:text-slate-900 "
+                  className="rounded p-2 text-sm cursor-pointer bg-amber-900 text-amber-50 hover:bg-amber-100 hover:text-amber-800 "
                 >
                   {item}
                 </div>
@@ -97,7 +97,9 @@ function AboutPage() {
           {/* Experience container  */}
           <div className="flex flex-col gap-12 justify-center mb-48">
             {/*Experience Title  */}
-            <h1 className="uppercase font-bold text-2xl">Experience</h1>
+            <h1 className="uppercase font-bold text-2xl text-amber-800">
+              Experience
+            </h1>
             {/*Experience List  */}
             <div className="">
               {/*Experience List Item  */}
@@ -105,11 +107,11 @@ function AboutPage() {
                 {/* Left */}
                 <div className="w-1/3">
                   {/* Job title */}
-                  <div className="bg-rose-100 text-slate-700 p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">
+                  <div className="bg-rose-100 text-amber-800 p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">
                     Web Developer
                   </div>
                   {/* Job description */}
-                  <div className="p-3 text-sm italic text-slate-700">
+                  <div className="p-3 text-sm italic text-amber-900">
                     I developed the Production Assist web application by
                     converting designer mockups into fully responsive pages
                     using React, Semantic UI, and SCSS. I implemented key
@@ -125,21 +127,21 @@ function AboutPage() {
                     settings in collaboration with backend endpoints.
                   </div>
                   {/* Job date */}
-                  <div className="p-3 text-sm font-semibold text-rose-500">
+                  <div className="p-3 text-sm font-semibold text-amber-600">
                     1/2022-7/2025
                   </div>
                   {/* Job company */}
-                  <div className="p-3 rounded bg-rose-200 text-slate-700 text-sm font-semibold w-fit">
+                  <div className="p-3 rounded bg-rose-200 text-amber-800 text-sm font-semibold w-fit">
                     Deersoft GmbH
                   </div>
                 </div>
                 {/* Center */}
                 <div className="w-1/6">
                   {/* Line  */}
-                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                  <div className="w-1 h-full bg-amber-900 rounded relative">
                     {/* Circle */}
-                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-rose-400 bg-amber-50 -left-2"></div>
-                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-rose-400 bg-amber-50 bottom-0 -left-2"></div>
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-amber-600 bg-amber-50 -left-2"></div>
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-amber-600 bg-amber-50 bottom-0 -left-2"></div>
                   </div>
                 </div>
                 {/* Right */}

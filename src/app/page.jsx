@@ -18,9 +18,10 @@ const Homepage = () => {
         {/* Text container */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center lg:gap-10">
           {/* Title */}
-          <h1 className="text-4xl font-bold capitalize xl:text-5xl tracking-wide text-amber-800">
+          <h1 className="text-3xl font-bold capitalize xl:text-4xl tracking-wide text-amber-800">
             Guided by curiosity and quiet strength, I create through code.
           </h1>
+
           {/* Description  */}
           <p className="text-xl tracking-wide text-justify text-amber-800">
             Thank you for stepping into this space, where each project is woven
