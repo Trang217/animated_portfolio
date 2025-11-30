@@ -151,6 +151,14 @@ function AboutPage() {
           </div>
         </div>
         {/* SVG container */}
+        <div className="">
+          <Image
+            src="/aboutme.png"
+            fill
+            alt="about image"
+            className="object-contain"
+          />
+        </div>
       </div>
     </motion.div>
   );
