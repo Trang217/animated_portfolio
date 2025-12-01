@@ -4,6 +4,8 @@ import Img_weather_1 from "../../public/weather_1.png";
 import Img_weather_2 from "../../public/weather_2.png";
 import Img_guessnum_1 from "../../public/guessnum_2.png";
 import Img_guessnum_2 from "../../public/guessnum_1.png";
+import Img_clipboard_1 from "../../public/clipboard_1.png";
+import Img_clipboard_2 from "../../public/clipboard_2.png";
 
 export const projects_data = [
   {
@@ -31,9 +33,9 @@ export const projects_data = [
     category: "tailwind css",
     title: "Clipboard Web",
     desc: "A responsive website I made to practice Tailwind CSS",
-    image_1: Img_guessnum_1,
-    image_2: Img_guessnum_2,
-    demo: "https://trang217.github.io/guess-my-number/",
+    image_1: Img_clipboard_1,
+    image_2: Img_clipboard_2,
+    demo: "https://clipboard-website-tw.netlify.app/",
     github: "https://github.com/Trang217/clipboard-website",
   },
   {
