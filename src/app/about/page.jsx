@@ -57,7 +57,7 @@ function AboutPage() {
             </span>
             <a
               download
-              href="/CV__JennyTrangNguyen.pdf"
+              href="/CV_JennyTrangNguyen.pdf"
               className="capitalize text-amber-100 shadow-lg mx-auto lg:mx-0 bg-orange-700 rounded-md font-bold ring-2 ring-amber-800 self-start py-3 px-4 hover:scale-105 transition duration-150"
             >
               Download my CV
