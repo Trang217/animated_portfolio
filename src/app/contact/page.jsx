@@ -91,7 +91,7 @@ function ContactPage() {
             className="bg-transparent border-b-2 border-b-black outline-none"
           />
           <span>Best Regards</span>
-          <button className="bg-slate-500 rounded-md mt-4 font-semibold text-amber-50 py-4 hover:scale-105 hover:transition-all hover:duration-150 hover:font-bold">
+          <button className="bg-orange-600 rounded-md mt-4 font-semibold text-amber-50 py-4 hover:scale-105 hover:transition-all hover:duration-150 hover:font-bold">
             Send
           </button>
           {success && (

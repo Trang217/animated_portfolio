@@ -25,15 +25,15 @@ function AboutPage() {
     <motion.div
       className="h-full"
       initial={{ y: "-200vh" }}
-      animate={{ y: 0 }}
+      animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
       {/* Container  */}
-      <div className="h-full overflow-scroll">
+      <div className="h-full overflow-scroll lg:flex">
         {/* Text container */}
-        <div className="flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64  p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48">
+        <div className="flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 lg:w-2/3 lg:pr-0 xl:pr-0 xl:w-1/2 mb-16">
           {/* Biography container  */}
-          <div className="flex flex-col gap-4 justify-center">
+          <div className="flex flex-col gap-6 justify-center">
             {/*Biography Title  */}
             <h1 className="uppercase font-bold text-2xl text-amber-800">
               Biography
@@ -51,19 +51,19 @@ function AboutPage() {
               evolution that this path brings to my life.
             </p>
             {/* Quote */}
-            <span className="italic text-lg text-amber-800">
+            <span className="italic text-lg text-amber-800 tracking-wide">
               Growing with every challenge, learning with every moment, thankful
-              always.
+              always!
             </span>
             <a
               download
-              href="/public/CV__TrangNguyen.pdf"
-              className="cappitalize text-amber-800"
+              href="/CV__TrangNguyen.pdf"
+              className="capitalize text-amber-200 shadow-lg bg-orange-700 rounded-md font-bold ring-2 ring-amber-800 self-start py-3 px-4 hover:scale-105 transition duration-150"
             >
-              Download my cv
+              Download my CV
             </a>
             {/* Signature */}
-            <div className="self-end mr-36">
+            <div className="self-end mr-30">
               <Image
                 src="/mysign.png"
                 alt="my signature"
@@ -112,19 +112,26 @@ function AboutPage() {
                   </div>
                   {/* Job description */}
                   <div className="p-3 text-sm italic text-amber-900">
-                    I developed the Production Assist web application by
-                    converting designer mockups into fully responsive pages
-                    using React, Semantic UI, and SCSS. I implemented key
-                    features such as dark mode for the Electron desktop app and
-                    worked to improve UI consistency and user experience across
-                    releases. I actively responded to user feedback, fixed bugs
-                    efficiently, and contributed to monthly updates.
-                    Additionally, I contributed to the GDTF Fixture Builder
-                    website, helping build UI components and implement new
-                    features for an industry-standard lighting initiative. I
-                    also worked with MongoDB to manage user data, including
-                    profiles, authentication structures, and user-specific
-                    settings in collaboration with backend endpoints.
+                    <p className="mb-6">
+                      I developed the Production Assist web application by
+                      converting designer mockups into fully responsive pages
+                      using React, Semantic UI, and SCSS. I implemented key
+                      features such as dark mode for the Electron desktop app
+                      and worked to improve UI consistency and user experience
+                      across releases.
+                    </p>
+
+                    <p>
+                      {" "}
+                      I actively responded to user feedback, fixed bugs
+                      efficiently, and contributed to monthly updates.
+                      Additionally, I contributed to the GDTF Fixture Builder
+                      website, helping build UI components and implement new
+                      features for an industry-standard lighting initiative. I
+                      also worked with MongoDB to manage user data, including
+                      profiles, authentication structures, and user-specific
+                      settings in collaboration with backend endpoints.
+                    </p>
                   </div>
                   {/* Job date */}
                   <div className="p-3 text-sm font-semibold text-amber-600">
@@ -151,10 +158,11 @@ function AboutPage() {
           </div>
         </div>
         {/* SVG container */}
-        <div className="">
+        <div className="hidden lg:block w-1/3 xl:w-1/2 z-30">
           <Image
+            width={600}
+            height={300}
             src="/aboutme.png"
-            fill
             alt="about image"
             className="object-contain"
           />
