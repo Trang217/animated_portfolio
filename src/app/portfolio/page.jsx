@@ -7,7 +7,7 @@ import React, { useState } from "react";
 
 function PortfolioPage() {
   const [projects, setProjects] = useState(projects_data);
-  console.log("projects", projects);
+
   return (
     <motion.div
       className="h-full overflow-scroll"
