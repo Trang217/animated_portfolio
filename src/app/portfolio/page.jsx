@@ -10,16 +10,15 @@ function PortfolioPage() {
 
   return (
     <motion.div
-      className="h-full overflow-scroll"
-      initial={{ y: "-200vh" }}
+      className="h-full overflow-y-scroll"
       animate={{ y: 0 }}
       transition={{ duration: 1 }}
     >
       <div className=" flex flex-col gap-4 p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48">
-        <h1 className="uppercase font-bold text-2xl text-amber-800">
+        <h1 className="uppercase font-bold text-center lg-text-left text-2xl text-amber-800">
           Recent projects
         </h1>
-        <p className="text-xl font-semibold text-amber-800">
+        <p className="text-xl text-center lg:text:left font-semibold text-amber-800">
           Check out some of mini projects I recently work on in order to develop
           my skills.
         </p>
