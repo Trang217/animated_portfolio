@@ -29,9 +29,9 @@ function AboutPage() {
       transition={{ duration: 1 }}
     >
       {/* Container  */}
-      <div className="h-full overflow-scroll lg:flex">
+      <div className="h-full overflow-y-scroll lg:flex">
         {/* Text container */}
-        <div className="flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 lg:w-2/3 lg:pr-0 xl:pr-0 xl:w-1/2 mb-16">
+        <div className="flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 lg:w-2/3 lg:pr-0 xl:pr-0 xl:w-1/2 ">
           {/* Biography container  */}
           <div className="flex flex-col gap-6 justify-center">
             {/*Biography Title  */}
@@ -58,7 +58,7 @@ function AboutPage() {
             <a
               download
               href="/CV__TrangNguyen.pdf"
-              className="capitalize text-amber-200 shadow-lg bg-orange-700 rounded-md font-bold ring-2 ring-amber-800 self-start py-3 px-4 hover:scale-105 transition duration-150"
+              className="capitalize text-amber-100 shadow-lg bg-orange-700 rounded-md font-bold ring-2 ring-amber-800 self-start py-3 px-4 hover:scale-105 transition duration-150"
             >
               Download my CV
             </a>
@@ -71,7 +71,6 @@ function AboutPage() {
                 height={150}
               />
             </div>
-            {/* Scroll SVG  */}
           </div>
 
           {/* Skills container  */}
@@ -91,11 +90,10 @@ function AboutPage() {
                 </div>
               ))}
             </div>
-            {/* Scroll SVG  */}
           </div>
 
           {/* Experience container  */}
-          <div className="flex flex-col gap-12 justify-center mb-48">
+          <div className="flex flex-col gap-12 justify-center pb-48">
             {/*Experience Title  */}
             <h1 className="uppercase font-bold text-2xl text-amber-800">
               Experience
@@ -105,13 +103,13 @@ function AboutPage() {
               {/*Experience List Item  */}
               <div className="flex justify-between ">
                 {/* Left */}
-                <div className="w-1/3">
+                <div className="w-2/3">
                   {/* Job title */}
-                  <div className="bg-rose-100 text-amber-800 p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">
+                  <div className="bg-amber-100 text-amber-800 text-lg p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">
                     Web Developer
                   </div>
                   {/* Job description */}
-                  <div className="p-3 text-sm italic text-amber-900">
+                  <div className="p-3 text-md italic text-amber-900">
                     <p className="mb-6">
                       I developed the Production Assist web application by
                       converting designer mockups into fully responsive pages
@@ -138,7 +136,7 @@ function AboutPage() {
                     1/2022-7/2025
                   </div>
                   {/* Job company */}
-                  <div className="p-3 rounded bg-rose-200 text-amber-800 text-sm font-semibold w-fit">
+                  <div className="p-3 rounded-xl bg-amber-100 text-amber-800 text-lg font-semibold w-fit">
                     Deersoft GmbH
                   </div>
                 </div>

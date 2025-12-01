@@ -13,14 +13,14 @@ function TransitionProvider({ children }) {
         className="w-screen h-screen bg-gradient-to-b from-amber-50 to-red-100"
       >
         <motion.div
-          className="w-screen h-screen fixed bg-gradient-to-b from-amber-50 to-red-100 rounded-b-sm z-40"
+          className="w-screen h-screen fixed bg-orange-800 rounded-b-sm z-40"
           animate={{ height: "0vh" }}
           exit={{ height: "140vh" }}
           transition={{ duration: 0.5, ease: "easeOut" }}
         />
 
         <motion.div
-          className="fixed m-auto top-0 bottom-0 left-0 right-0 capitalize text-amber-900 text-8xl cursor-default z-50 w-fit h-fit"
+          className="fixed m-auto top-0 bottom-0 left-0 right-0 capitalize text-amber-100 text-8xl cursor-default z-50 w-fit h-fit"
           initial={{ opacity: 1 }}
           animate={{ opacity: 0 }}
           exit={{ opacity: 0 }}
@@ -32,7 +32,7 @@ function TransitionProvider({ children }) {
         </motion.div>
 
         <motion.div
-          className="w-screen h-screen fixed bg-gradient-to-t from-red-100 to-amber-50 rounded-t-sm bottom-0 z-30"
+          className="w-screen h-screen fixed bg-orange-800 rounded-t-sm bottom-0 z-30"
           initial={{ height: "140vh" }}
           animate={{ height: "0vh", transition: { delay: 0.5 } }}
         />
