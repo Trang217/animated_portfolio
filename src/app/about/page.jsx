@@ -35,11 +35,11 @@ function AboutPage() {
           {/* Biography container  */}
           <div className="flex flex-col gap-6 justify-center">
             {/*Biography Title  */}
-            <h1 className="uppercase font-bold text-2xl text-amber-800">
+            <h1 className="uppercase font-bold text-center lg:text-left text-2xl text-amber-800">
               Biography
             </h1>
             {/* Biography description  */}
-            <p className="text-lg text-amber-800 font-semibold text-justify tracking-wide">
+            <p className="text-md lg:text-lg text-amber-800 font-semibold text-center lg:text-justify tracking-wide">
               Over the past four years in web development, I’ve grown not just
               as a developer, but as a person. Every project, challenge, and new
               technology has added something meaningful to my journey. It’s
@@ -51,14 +51,14 @@ function AboutPage() {
               evolution that this path brings to my life.
             </p>
             {/* Quote */}
-            <span className="italic text-lg text-amber-800 tracking-wide">
+            <span className="italic text-md lg:text-lg text-center lg:text-justify text-amber-800 tracking-wide">
               Growing with every challenge, learning with every moment, thankful
               always!
             </span>
             <a
               download
               href="/CV__TrangNguyen.pdf"
-              className="capitalize text-amber-100 shadow-lg bg-orange-700 rounded-md font-bold ring-2 ring-amber-800 self-start py-3 px-4 hover:scale-105 transition duration-150"
+              className="capitalize text-amber-100 shadow-lg mx-auto lg:mx-0 bg-orange-700 rounded-md font-bold ring-2 ring-amber-800 self-start py-3 px-4 hover:scale-105 transition duration-150"
             >
               Download my CV
             </a>
@@ -80,7 +80,7 @@ function AboutPage() {
               Skills
             </h1>
             {/*Skill List  */}
-            <div className="flex gap-4 flex-wrap max-w-md">
+            <div className="flex justify-center lg:justify-start gap-4 flex-wrap max-w-md">
               {lists.map((item) => (
                 <div
                   key={item}
@@ -109,7 +109,7 @@ function AboutPage() {
                     Web Developer
                   </div>
                   {/* Job description */}
-                  <div className="p-3 text-md italic text-amber-900">
+                  <div className="p-3 text-sm md:text-md italic text-amber-900">
                     <p className="mb-6">
                       I developed the Production Assist web application by
                       converting designer mockups into fully responsive pages
@@ -150,7 +150,7 @@ function AboutPage() {
                   </div>
                 </div>
                 {/* Right */}
-                <div className="w-1/3"></div>
+                <div className="hidden md:block md:w-1/3"></div>
               </div>
             </div>
           </div>

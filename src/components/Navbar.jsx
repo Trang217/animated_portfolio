@@ -49,7 +49,7 @@ function Navbar() {
         ))}
       </div>
       {/* Logo */}
-      <div className="md:hidden lg:flex xl:w-1/3 lg:justify-center">
+      <div className="hidden xl:flex xl:w-1/3 xl:justify-center">
         <Link
           href="/"
           className="text-sm bg-amber-800 rounded-md p-1 font-semibold flex items-center justify-center"
