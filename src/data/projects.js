@@ -6,7 +6,8 @@ import Img_guessnum_1 from "../../public/guessnum_2.png";
 import Img_guessnum_2 from "../../public/guessnum_1.png";
 import Img_clipboard_1 from "../../public/clipboard_1.png";
 import Img_clipboard_2 from "../../public/clipboard_2.png";
-
+import Img_todo_1 from "../../public/todo_1.png";
+import Img_todo_2 from "../../public/todo_2.png";
 export const projects_data = [
   {
     id: 1,
@@ -38,16 +39,16 @@ export const projects_data = [
     demo: "https://clipboard-website-tw.netlify.app/",
     github: "https://github.com/Trang217/clipboard-website",
   },
-  // {
-  //   id: 4,
-  //   category: "tailwind css",
-  //   title: "Testimonial Page",
-  //   desc: "A responsive page I made to practice Tailwind CSS",
-  //   image_1: Img_guessnum_1,
-  //   image_2: Img_guessnum_2,
-  //   demo: "https://trang217.github.io/guess-my-number/",
-  //   github: "https://github.com/Trang217/guess-my-number",
-  // },
+  {
+    id: 4,
+    category: "tailwind css",
+    title: "To do list app",
+    desc: "A cute app I made to practice React",
+    image_1: Img_todo_1,
+    image_2: Img_todo_2,
+    demo: "https://react-todolist-trang217.vercel.app/",
+    github: "https://github.com/Trang217/react-todolist",
+  },
   {
     id: 5,
     category: "Javascript",
