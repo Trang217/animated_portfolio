@@ -1,4 +1,4 @@
-# 🌸 Trang Portfolio
+# 🌸 My Portfolio
 
 This is my personal portfolio website built with **Next.js**, **React**, **Tailwind CSS**, and **Framer Motion** to showcase my projects, skills, and experience.
 
