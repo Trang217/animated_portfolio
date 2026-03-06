@@ -8,12 +8,14 @@ import Img_clipboard_1 from "../../public/clipboard_1.png";
 import Img_clipboard_2 from "../../public/clipboard_2.png";
 import Img_todo_1 from "../../public/todo_1.png";
 import Img_todo_2 from "../../public/todo_2.png";
+import Img_workout from "../../public/workout.png";
+
 export const projects_data = [
   {
     id: 1,
     category: "typescript, react",
     title: "Chat with Mai",
-    desc: "An AI Chat Bot I made to practice Typescript and React",
+    desc: "Chat with Mai is a personal AI chat application I built as a fun and interactive project to explore modern React development, UI design, and real-time chat experiences.",
     image_1: Img_chatwithmai_1,
     image_2: Img_chatwithmai_2,
     demo: "https://chat-with-mai.vercel.app/",
@@ -23,7 +25,7 @@ export const projects_data = [
     id: 2,
     category: "typescript, react",
     title: "Weather App",
-    desc: "A Weather App I made to practice Typescript and React",
+    desc: "This is a simple weather application I built to practice working with modern React, clean UI design, and real-world data presentation.",
     image_1: Img_weather_1,
     image_2: Img_weather_2,
     demo: "https://weather-app-woad-eight-83.vercel.app/",
@@ -31,6 +33,16 @@ export const projects_data = [
   },
   {
     id: 3,
+    category: "typescript, react, tailwind CSS",
+    title: "Workout Exercises Tracker",
+    desc: "A simple and powerful workout planning application built with React, TypeScript, and Tailwind CSS.",
+    image_1: Img_workout,
+    image_2: Img_workout,
+    demo: "https://workout-plan-zeta.vercel.app/",
+    github: "https://github.com/Trang217/workout-plan",
+  },
+  {
+    id: 4,
     category: "tailwind css",
     title: "Clipboard Web",
     desc: "A responsive website I made to practice Tailwind CSS",
@@ -40,7 +52,7 @@ export const projects_data = [
     github: "https://github.com/Trang217/clipboard-website",
   },
   {
-    id: 4,
+    id: 5,
     category: "tailwind css",
     title: "To do list app",
     desc: "A cute app I made to practice React",
@@ -50,7 +62,7 @@ export const projects_data = [
     github: "https://github.com/Trang217/react-todolist",
   },
   {
-    id: 5,
+    id: 6,
     category: "Javascript",
     title: "Guess my number game",
     desc: "A funny game I made to practice Javascript skill",

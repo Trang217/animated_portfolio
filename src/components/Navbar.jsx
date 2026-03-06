@@ -126,7 +126,6 @@ function Navbar() {
           ></motion.div>
           <motion.div
             variants={bottomVariants}
-            origin-left
             animate={open ? "open" : "close"}
             className="w-10 h-1 bg-amber-800 rounded origin-left"
           ></motion.div>
