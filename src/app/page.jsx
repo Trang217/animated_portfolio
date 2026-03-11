@@ -20,7 +20,7 @@ const Homepage = () => {
         <div className="h-auto lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center lg:gap-10">
           {/* Title */}
           <h1 className="text-2xl text-center md:text-left font-bold capitalize xl:text-4xl tracking-wide text-amber-800">
-            Guided by curiosity and quiet strength, I create through code.
+            Wellcome to my portfolio webpage!
           </h1>
 
           {/* Description  */}
