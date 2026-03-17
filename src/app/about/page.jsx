@@ -132,9 +132,7 @@ function AboutPage() {
                     </p>
                   </div>
                   {/* Job date */}
-                  <div className="p-3 text-sm font-semibold text-amber-600">
-                    1/2022-7/2025
-                  </div>
+                  <div className="p-3 text-sm font-semibold text-amber-600"></div>
                   {/* Job company */}
                   <div className="p-3 rounded-xl bg-amber-100 text-amber-800 text-lg font-semibold w-fit">
                     Deersoft GmbH
