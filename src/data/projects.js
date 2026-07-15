@@ -9,6 +9,7 @@ import Img_clipboard_2 from "../../public/clipboard_2.png";
 import Img_todo_1 from "../../public/todo_1.png";
 import Img_todo_2 from "../../public/todo_2.png";
 import Img_workout from "../../public/workout.png";
+import Img_issue from "../../public/issue.png";
 
 export const projects_data = [
   {
@@ -23,6 +24,16 @@ export const projects_data = [
   },
   {
     id: 2,
+    category: "Typescript, react",
+    title: "Mini Issue Tracker",
+    desc: "A simple issue tracker built with React and TypeScript to create, manage, and track tickets.",
+    image_1: Img_issue,
+    image_2: Img_issue,
+    demo: "https://issue-tracker-inky-one.vercel.app/",
+    github: "https://github.com/Trang217/issue-tracker",
+  },
+  {
+    id: 3,
     category: "typescript, react",
     title: "Weather App",
     desc: "This is a simple weather application I built to practice working with modern React, clean UI design, and real-world data presentation.",
@@ -32,7 +43,7 @@ export const projects_data = [
     github: "https://github.com/Trang217/weather-app",
   },
   {
-    id: 3,
+    id: 4,
     category: "typescript, react, tailwind CSS",
     title: "Workout Exercises Tracker",
     desc: "A simple and powerful workout planning application built with React, TypeScript, and Tailwind CSS.",
@@ -42,7 +53,7 @@ export const projects_data = [
     github: "https://github.com/Trang217/workout-plan",
   },
   {
-    id: 4,
+    id: 5,
     category: "tailwind css",
     title: "Clipboard Web",
     desc: "A responsive website I made to practice Tailwind CSS",
@@ -52,7 +63,7 @@ export const projects_data = [
     github: "https://github.com/Trang217/clipboard-website",
   },
   {
-    id: 5,
+    id: 6,
     category: "tailwind css",
     title: "To do list app",
     desc: "A cute app I made to practice React",
@@ -62,7 +73,7 @@ export const projects_data = [
     github: "https://github.com/Trang217/react-todolist",
   },
   {
-    id: 6,
+    id: 7,
     category: "Javascript",
     title: "Guess my number game",
     desc: "A funny game I made to practice Javascript skill",
